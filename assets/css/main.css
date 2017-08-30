@@ -9,6 +9,37 @@
 
 /* Reset */
 
+.highlight1 {
+background-color: rgb(112, 32, 140); /* purple */
+color: white;
+
+}
+
+.highlight2 {
+background-color: rgb(50, 56, 150);/* blue */
+color: white;
+}
+
+.highlight3 {
+background-color: rgb(222, 25, 35);/* orange */
+color: white;
+}
+
+.highlight4 {
+background-color: rgb(246, 149, 22);/* yellow */
+color: white;
+}
+
+.highlight5 {
+background-color: rgb(0, 123, 66);/* green */
+color: white;
+}
+
+.highlight6 {
+background-color: black;/* black */
+color: white;
+}
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -3033,7 +3064,7 @@
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.75;  /* opacity for darkness background when it hovers*/
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
